@@ -1,0 +1,67 @@
+.header{
+    width: 100%;
+    height: 56px;
+    position: fixed;
+    top:0;
+    padding:12px 0;
+    background: #fff;
+}
+.left{
+    position: fixed;
+    top:56px;
+    left:0;
+    width: 72px;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+.left a.nav{
+    display: block;
+    height: 74px;
+    color:#666;
+}
+.left a.nav.current{
+    color:#c9302c;
+}
+.left a.nav div{
+    height: 74px;
+    padding:16px 0 14px;
+}
+.left a.nav div .ico{
+    font-size:18px;
+}
+.left a.nav div .glyphicon-class{
+    font-size:1.2rem;
+}
+.left a.nav :hover{
+    background: #eee;
+}
+.header .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+.header .info div{
+    margin-right:2rem;
+    font-size: 1.6rem;
+}
+.header .search .search_content{
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+.header .search #BtnSearch{
+    position: absolute;
+    top:0;
+    right: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    width: 65px;
+    background: #fafafa;
+    color: #666;
+}
+.header .info a{
+    color:#333
+}
